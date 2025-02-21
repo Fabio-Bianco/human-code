@@ -1,6 +1,6 @@
 #  Human-code
 
-## 1  Fare la spesa seguendo lista.
+## 1)  Fare la spesa seguendo lista.
 
 ### Testo descizione del problema: 
 #### Nel frigo si inizia a sentire l'eco, perciò è ora di fare rifornimenti! Visto che dimentico sempre qualcosa, decido di appuntarmi tutto ciò che manca in una lista, così una volta al supermercato, girando tra gli scaffali, posso verificare di aver preso tutto e Ricky non rimane senza crocchette come l'ultima volta, povero! Devo ricordarmi di usare il coupon che scade a fine mese, per il resto dovrebbero bastarmi i contanti che ho in portafogli, sempre se non mi faccio prendere la mano con gli snack extra
@@ -80,10 +80,6 @@
 _______
 
 
-
-
-
-
 ## 2) Scansionare un documento su più fogli fronte-retro
 
 ### Testo descizione del problema: 
@@ -91,6 +87,70 @@ _______
 
 
 ### Risoluzione del problema
+
+- Cheeck collegamento PC AND Scanner siano collegati l'un l'altro:
+
+ - SE sono scollegati:
+  - collego i dispostivi:
+
+ - ALTRIMENTI:
+   - procedo;
+
+- Cheeck funzionamento/accensione PC AND scanner
+
+  - SE uno dei due dispositivi ha problemi:
+    - utilizzo la fotocamere di uno smartphone;
+ 
+ - ALTRIMENTI posso utilizzare una fotocamera digitale per l'acquisizione dell'immagine;
+
+- Sul pc creo una cartella per il deposito dei file scansionati;
+
+- Predispongo uno spazio di archiviazione apposito per i file 'finiti';
+
+- Indico allo scanner/PC in quale cartella salvare i fogli scansionati;
+
+- Inizio la scansione del primo foglio
+
+- Mi assicuro che il foglio sia correttamente posizionato nello slot apposito;
+
+- Premo invio;
+
+- Attendo la scansione;
+
+- Apro lo scanner, giro il foglio per la scansione del retro;
+
+- Attendo la scansione;
+
+- Rinomino i due file in modo da poterli riconoscere;
+
+- Scansiono tutti i fogli FINCHE' non sono finite le pratiche da acquisire
+ commisurando tutto all'orario di lavoro;
+
+- Apro la cartella dove sono stati salvati i file;
+
+ - Unisco i due file in un unico file;
+
+ - Rinomino il file maniera definitiva;
+ - FiNCHE non terminano le pratiche da acquisire OR la giornata lavorativa
+   continuo ad unire e salvare i file;
+
+- Deposito tutto il materiale all'interno di uno spazio di archiviazione apposito;
+
+- Mi assicuro che i file siano salvati nello spazio di archiviazione apposito;
+
+- Mii assicuro che quest'ultimo sia riconoscibile dai miei colleghi;
+
+- SE i dispostivi (scanner AND PC) non servono più procedo allo spegnimento;
+
+ - ALTRIMENTI lascio i dispositivi in funzione per chi mi sostituirà;
+
+
+
+
+
+
+
+
 
 
 
