@@ -1,43 +1,99 @@
-# Esercizio: Human-code
+#  Human-code
 
-## Fare la spesa seguendo lista.
+## 1  Fare la spesa seguendo lista.
 
-Testo descizione del problema: 
-nel frigo si inizia a sentire l'eco, perciò è ora di fare rifornimenti!
-Visto che dimentico sempre qualcosa, decido di appuntarmi tutto ciò che manca in una lista, così una volta al supermercato, girando tra gli scaffali, posso verificare di aver preso tutto e Ricky non rimane senza crocchette come l'ultima volta, povero! Devo ricordarmi di usare il coupon che scade a fine mese, per il resto dovrebbero bastarmi i contanti che ho in portafogli, sempre se non mi faccio prendere la mano con gli snack extra
+### Testo descizione del problema: 
+#### Nel frigo si inizia a sentire l'eco, perciò è ora di fare rifornimenti! Visto che dimentico sempre qualcosa, decido di appuntarmi tutto ciò che manca in una lista, così una volta al supermercato, girando tra gli scaffali, posso verificare di aver preso tutto e Ricky non rimane senza crocchette come l'ultima volta, povero! Devo ricordarmi di usare il coupon che scade a fine mese, per il resto dovrebbero bastarmi i contanti che ho in portafogli, sempre se non mi faccio prendere la mano con gli snack extra
 
 
-- (lista generale delle azioni, da specificare)
+### Risoluzione del problema
+ 
+- Cheeck dipensa (secco/croccantini Ricky);
 
-- Controllo il frigo 
+- Cheeck frigo (deperibili) [azione che implica l'apertura e la chiusura del frigo];
 
-- Osservo 
+- Ho un coupon e dei contanti:
 
-- Stilo una lista 
+ - SE il coupon è ancora valido 
+     AND il market accetta il coupon:
+   - lo prendo
 
-- Decido quando andare a fare la spesa (oggi/domani)
+- ALTRIMENTI: 
+     - lo lascio;
 
-- Mi muovo a piedi o con la macchina?
+- Stilo una lista della spesa commisurandola ai conatnti (e al coupon?)
 
-- La spesa che devo fare può esser portata a piedi o mi occorre la macchina?
+- Prendo i contanti (e il coupon?);
 
-- Cerco su internet se il mio cupon è spendibile e in quale supermercato
+- SE nella lista ci sono elementi pesanti: 
+    - prendo l'auto;
 
-- Esco di casa
+ - ALTRIMENTI 
+    - vado a piedi;
 
-- Mi dirigo verso il market
 
-- Arrivo al market
+ - SE nella lista ci sono elementi leggeri:
+    - vado a piedi;
 
-- se sono in macchina parcheggio l'auto
+- Mi dirigo verso il market;
 
-- Entro nel Market
+- Arrivo al market;
 
-- Consulto la lista
+- SE ho l'auto:
+    - parcheggio;
 
-- Faccio la spesa
+- Entro nel Market;
 
-- Torno a casa
+- Consulto la lista;
+
+- SE ho  cose pesanti nella lista:
+  -  prendo il carrello grande;
+
+ - ALTRIMENTI:
+    - prendo il carrello piccolo;
+
+- Inizio a la spesa partendo dal cibo per Ricky ;
+  
+  continuo a cercare e prendere i prodotti FINCHE' non ho preso 
+   tutto ciò che ho nella lista ;
+
+- SE ho ancora contanti:
+    - prendo snack;
+
+ ALTRIMENTI controllo se ho preso la cdc 
+ OR se ho possibilità di pagare con NFC;
+
+- Mi dirigo verso la cassa:
+    - metto la spesa sul roll  FINCHè non ho svuotato il carrello;
+
+- Pago;
+
+- Prendo la spesa;
+
+- Torno verso la dispensa con le stesse modalità con cui mi sono diretto verso il market;
+
+- Ripongo la spesa;
+
+- Fine;
+
+
+_______
+
+
+
+
+
+
+## 2) Scansionare un documento su più fogli fronte-retro
+
+### Testo descizione del problema: 
+#### Finalmente sono riuscito a ritrovare quella pratica che sembrava essere svanita nel nulla! Che poi, possibile che nel 2025 ci siano ancora così tanti fogli di carta in giro per l’ufficio?! Ora ci penso io: una bella scansione e l’archiviamo in formato digitale, così la prossima volta so già dove andare a cercarla! L’unica pecca è che lo scanner non ha il fronte-retro automatico e mi tocca farlo a mano. Va beh, poco male, almeno sono pochi fogli!
+
+
+### Risoluzione del problema
+
+
+
 
 
 
